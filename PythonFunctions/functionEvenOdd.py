@@ -20,4 +20,4 @@ def even_odd_divider(lst):
 num_list = ["1", "2", "3", "4", "5"]
 
 # function call
-print(even_odd_divider(num_list))
+print(even_odd_divider(num_list))  # [[2, 4], [1, 3, 5]]
