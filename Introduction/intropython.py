@@ -14,4 +14,21 @@ print("Hello, World!")  # Output: Hello, World!
 print("hello, world!")  # Output: hello, world!
 
 
+# ----  What Is “Code”?
+
+# Code is a set of instructions that a computer can understand and execute. In Python, code is written in a human-readable format, which makes it easier to learn and use.
+
+# Code is just a series of instructions for a computer to follow one after another. Programs can have a lot of instructions.
+
+
+# Code runs in order, starting at the top of the program. For example:
+
+print("this prints first")
+print("this prints second")
+print("this prints last")
+
+
+
+
+
 
