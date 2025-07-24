@@ -98,3 +98,42 @@ print("Last car removed:", last_car)
 """pop() ka use hota hai index ke basis par item ko delete karne ke liye Tum index doge, python uss index par item ko delete karega aur usse return karega Agar index valid nahi hai to error dega Tum index specify kar sakte ho, agar nahi doge to by default last item remove karega Ye remove ki hui value ko return bhi karta hai, jo tum kisi variable me store kar sakte ho"""
 # remove() removes the first occurrence of a value from the list, while pop() removes an item at a specific index and returns it.
 # If you want to remove an item by value, use remove(). If you want to remove an item by index and get the removed item, use pop().
+
+lis_duplicates = [1, 2, 3, 4, 5, 1, 2, 3]  # list with duplicate values
+print("List with duplicates:", lis_duplicates)
+print("Length of list with duplicates:", len(lis_duplicates))  # length of the list with duplicates #To determine how many items a list has, use the len() function:
+
+# A list can contain different data types:
+
+mixed_list = [1, "apple", 3.14, True, [5, 6]]  # list with mixed data types
+print("Mixed list ", mixed_list)
+
+# check type of list
+print("Type of mixed_list:", type(mixed_list))  # check the type of mixed_list
+
+
+# list constructor use for creating a list
+list_constructor = list((1, 2, 3, 4, 5))
+print("List created using constructor:", list_constructor)
+
+
+list_of_birds = ["sparrow", "eagle", "parrot", "pigeon", "owl"]
+list_of_birds.sort()  # sort the list in ascending order
+print("Sorted list of birds:", list_of_birds)
+
+
+list_of_memales = ["lion", "tiger", "bear", "wolf", "fox"]
+list_of_memales.sort(reverse=True)  # sort the list in descending order
+print("Sorted list of memales in descending order:", list_of_memales)
+
+# check length of list
+print("Length of list_of_birds:", len(list_of_birds))  # get the length of the list
+print("Length of list_of_memales:", len(list_of_memales))  # get the length of the list
+# --------------------------- IN LAST
+
+"""There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members."""
